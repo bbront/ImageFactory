@@ -1,37 +1,4 @@
-﻿<#
-.Synopsis
-    ImageFactory 3.3
-.DESCRIPTION
-    ImageFactory 3.3
-.EXAMPLE
-    ImageFactoryV3-Verify-ShowContent.ps1
-.NOTES
-    Created:	 2016-11-24
-    Version:	 3.1
-
-    Updated:	 2017-02-23
-    Version:	 3.2
-
-    Updated:	 2017-09-27
-    Version:	 3.3
-
-    Author - Mikael Nystrom
-    Twitter: @mikael_nystrom
-    Blog   : http://deploymentbunny.com
-
-    Disclaimer:
-    This script is provided 'AS IS' with no warranties, confers no rights and 
-    is not supported by the author.
-
-    This script uses the PsIni module:
-    Blog		: http://oliver.lipkau.net/blog/ 
-	Source		: https://github.com/lipkau/PsIni
-	http://gallery.technet.microsoft.com/scriptcenter/ea40c1ef-c856-434b-b8fb-ebd7a76e8d91
-
-.LINK
-    http://www.deploymentbunny.com
-#>
-Import-Module C:\Setup\Functions\VIAHypervModule.psm1 -Force -Verbose
+﻿Import-Module C:\Setup\Functions\VIAHypervModule.psm1 -Force -Verbose
 
 $adminPassword = "P@ssw0rd"
 $domainName = "VIAMONSTRA"

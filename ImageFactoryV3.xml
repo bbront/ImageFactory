@@ -1,0 +1,19 @@
+﻿<Settings>
+  <ConcurrentRunningVMs>3</ConcurrentRunningVMs>
+ <MDT>
+  <DeploymentShare>D:\MDTBuildLab</DeploymentShare>
+  <RefTaskSequenceFolderName>REF</RefTaskSequenceFolderName>
+  <ValidateTaskSequenceFolderName>Validate</ValidateTaskSequenceFolderName>
+  <ValidateOSImageFolderName>Validate</ValidateOSImageFolderName>
+ </MDT>
+ <HyperV>
+  <StartUpRAM>4</StartUpRAM>
+  <VLANID>0</VLANID>
+  <Computername>DEMOHOST03</Computername>
+  <SwitchName>UplinkSwitchNAT</SwitchName>
+  <VMLocation>D:\VMs</VMLocation>
+  <ISOLocation>C:\ISO</ISOLocation>
+  <VHDSize>80</VHDSize>
+  <NoCPU>2</NoCPU>
+ </HyperV>
+</Settings>
